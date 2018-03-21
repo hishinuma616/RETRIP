@@ -1,0 +1,49 @@
+.ranking {
+  display: table;
+  table-layout: fixed;
+  padding: 18px 0;
+  border-bottom: solid 1px #eee;
+
+  .ranking-thumbnail-container {
+    display: table-cell;
+
+    .ranking-thumbnail {
+      vertical-align: middle;
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  .ranking-thumbnail-container:nth-child(0) {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 15px;
+      left: 0;
+      z-index: 10;
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 16px;
+
+    }
+  }
+
+  .ranking-thumbnail-container:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+  .ranking-body {
+    display: table-cell;
+    vertical-align: middle;
+
+    .ranking-text {
+      padding-left: 5px;
+      font-size: 13px;
+    }
+  }
+}

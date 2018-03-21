@@ -1,0 +1,43 @@
+.outSide {
+  margin-bottom: 40px;
+
+  .outSide-thumbnail-container {
+    float: left;
+
+    .outSide-thumbnail {
+      width: 170px;
+      height: 170px;
+    }
+
+    .outSide-thumbnail:hover {
+      cursor: pointer;
+      opacity: .5;
+    }
+  }
+
+  .outSide-body {
+    float: left;
+    padding: 20px;
+    width: 490px;
+    height: 130px;
+    background-color: #f7f7f7;
+
+    .outSide-body-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #555;
+    }
+
+    .outSide-body-info {
+
+      > li {
+        margin-top: 3px;
+        color: #999;
+        font-size: 11px;
+
+      }
+
+    }
+  }
+}
