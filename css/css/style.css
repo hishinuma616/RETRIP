@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, ul, ol, li {
+body, h1, h2, h3, h4, ul, ol, li, p {
   margin: 0;
   padding: 0; }
 
@@ -90,8 +90,27 @@ header .header-search-container .header-search {
       height: 1px;
       background: #555; }
 
-.section-title {
+.main-section-title {
   font-size: 22px;
   padding: 20px 0 15px;
   margin-bottom: 25px;
   border-bottom: solid 3px #000; }
+
+.side-section-title {
+  font-size: 16px;
+  padding: 35px 0 9px;
+  margin: 0;
+  border-bottom: solid 1px #444; }
+
+.media {
+  display: block;
+  padding: 18px 0;
+  border-bottom: solid 1px #eee; }
+  .media .media-thumbnail {
+    display: inline-block;
+    margin-right: 5px; }
+    .media .media-thumbnail .media-thumbnail-img {
+      width: 70px;
+      height: 70px; }
+  .media .media-text {
+    display: inline-block; }

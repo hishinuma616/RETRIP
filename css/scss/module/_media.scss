@@ -1,0 +1,19 @@
+.media {
+  display: block;
+  padding: 18px 0;
+  border-bottom: solid 1px #eee;
+
+  .media-thumbnail {
+    display: inline-block;
+    margin-right: 5px;
+
+    .media-thumbnail-img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  .media-text {
+    display: inline-block;
+  }
+}
