@@ -1,0 +1,20 @@
+header {
+  .header-inner {
+    padding: 27px 25px;
+  }
+
+  .header-search-container {
+
+    .header-search {
+      box-sizing: border-box;
+      width: 220px;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      padding: 0 30px 0 10px;
+      font-size: 12px;
+      line-height: 30px;
+      background-color: #f5f5f5;
+    }
+  }
+}

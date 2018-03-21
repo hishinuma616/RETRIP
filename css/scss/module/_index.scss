@@ -1,0 +1,25 @@
+.index {
+  background-color: #f7f7f7;
+  border: solid 2px #f3f3f3;
+  padding: 20px 25px;
+
+  .index-list {
+    .index-list-item {
+      position: relative;
+      margin-bottom: 8px;
+      padding-left: 21px;
+      line-height: 1.4;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 4px;
+        top: 9px;
+        display: block;
+        width: 5px;
+        height: 1px;
+        background: #555;
+      }
+    }
+  }
+}
