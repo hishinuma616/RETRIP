@@ -24,6 +24,30 @@
           display: inline-block;
           margin: 0 12px 5px 0;
         }
+
+        .footer-list-mapIcon {
+          &:before {
+          font-family: "Font Awesome 5 Free";
+          content: "\f3c5";
+          font-weight: bold;
+          margin-right: 5px;
+          font-size: 10px;
+          color: #c7c7c7;
+          }
+        }
+
+        .footer-list-sharpIcon {
+          &:before {
+          font-family: "Font Awesome 5 Free";
+          content: "\f292";
+          font-weight: bold;
+          margin-right: 5px;
+          font-size: 10px;
+          color: #c7c7c7;
+          }
+        }
+
+
         .footer-list-item:hover {
           text-decoration: underline;
         }
@@ -36,6 +60,7 @@
 
         .footer-table {
           display: table-cell;
+          font-size: 12px;
           margin-left: 40px;
 
 

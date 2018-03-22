@@ -77,6 +77,20 @@ header .header-search-container .header-search {
     .footer-container .footer .footer-nav .footer-list .footer-list-item {
       display: inline-block;
       margin: 0 12px 5px 0; }
+    .footer-container .footer .footer-nav .footer-list .footer-list-mapIcon:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f3c5";
+      font-weight: bold;
+      margin-right: 5px;
+      font-size: 10px;
+      color: #c7c7c7; }
+    .footer-container .footer .footer-nav .footer-list .footer-list-sharpIcon:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f292";
+      font-weight: bold;
+      margin-right: 5px;
+      font-size: 10px;
+      color: #c7c7c7; }
     .footer-container .footer .footer-nav .footer-list .footer-list-item:hover {
       text-decoration: underline; }
     .footer-container .footer .footer-nav .footer-table-container {
@@ -85,6 +99,7 @@ header .header-search-container .header-search {
       table-layout: fixed; }
       .footer-container .footer .footer-nav .footer-table-container .footer-table {
         display: table-cell;
+        font-size: 12px;
         margin-left: 40px; }
         .footer-container .footer .footer-nav .footer-table-container .footer-table .footer-table-list {
           margin-bottom: 10px; }
