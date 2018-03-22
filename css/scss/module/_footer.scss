@@ -5,13 +5,46 @@
     width: 1030px;
     margin: 0 auto;
     padding: 25px 25px 30px;
+    font-size: 13px;
+    color: #555;
 
     .footer-nav {
 
+      .footer-nav-title {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 12px 0 12px;
+        color: #555;
+      }
+
       .footer-list {
+
 
         .footer-list-item {
           display: inline-block;
+          margin: 0 12px 5px 0;
+        }
+        .footer-list-item:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .footer-table-container {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+
+        .footer-table {
+          display: table-cell;
+          margin-left: 40px;
+
+
+          .footer-table-list {
+            margin-bottom: 10px;
+          }
+          .footer-table-list :hover {
+            text-decoration: underline;
+          }
         }
       }
     }
