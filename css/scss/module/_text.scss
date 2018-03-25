@@ -7,3 +7,12 @@ $glay: #aaa;
 .text-glay {
   color: $glay;
 }
+
+.text-section {
+
+  &::before {
+  content: "|";
+  font-size: 11px;
+  margin: 0 7px;
+  }
+}

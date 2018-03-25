@@ -35,6 +35,12 @@ a {
 .l-main p {
   margin-bottom: 30px; }
 
+.l-main .l-bottom-none {
+  margin-bottom: 0 !important; }
+
+.l-align-center {
+  text-align: center; }
+
 .clearfix:after {
   content: " ";
   display: block;
@@ -61,6 +67,15 @@ a {
     top: 35px;
     right: 0;
     width: 200px; }
+    .l-article-head .l-article-head-info .l-article-head-info-status {
+      float: left;
+      width: 40%;
+      margin-bottom: 20px;
+      text-align: center; }
+      .l-article-head .l-article-head-info .l-article-head-info-status:last-child {
+        width: 60%; }
+    .l-article-head .l-article-head-info .l-article-head-info-button {
+      text-align: center; }
 
 header .header-inner {
   padding: 27px 25px; }
@@ -121,6 +136,14 @@ header .header-search-container .header-search {
         .footer-container .footer .footer-nav .footer-table-container .footer-table .footer-table-list :hover {
           text-decoration: underline; }
 
+.article-info {
+  color: #222; }
+  .article-info .article-info-text {
+    font-size: 23.5px; }
+  .article-info .article-info-subText {
+    font-size: 10px;
+    letter-spacing: .5px; }
+
 .breadcrumb-container {
   border-top: solid 1px #eee;
   border-bottom: solid 1px #eee; }
@@ -142,13 +165,20 @@ header .header-search-container .header-search {
       content: ""; }
 
 .description {
+  color: #555;
   background-color: #f7f7f7;
   padding: 20px 25px; }
 
 .index {
+  color: #555;
   background-color: #f7f7f7;
   border: solid 2px #f3f3f3;
   padding: 20px 25px; }
+  .index .index-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: 333;
+    padding: 0 0 15px; }
   .index .index-list .index-list-item {
     position: relative;
     margin-bottom: 8px;
@@ -269,7 +299,7 @@ header .header-search-container .header-search {
 
 .share .share-button {
   display: inline-block;
-  width: 129px;
+  width: 125px;
   height: 38px;
   line-height: 40px;
   margin-right: 13px;
@@ -353,3 +383,29 @@ header .header-search-container .header-search {
 
 .text-glay {
   color: #aaa; }
+
+.text-section::before {
+  content: "|";
+  font-size: 11px;
+  margin: 0 7px; }
+
+.button {
+  height: 45px;
+  line-height: 46px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-bottom: solid 2px #e5e5e5;
+  letter-spacing: 1px; }
+
+.button-fav-icon::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f004";
+  font-weight: bold;
+  margin-right: 9px; }
+
+.button-fav-icon:hover {
+  cursor: pointer;
+  opacity: .5; }

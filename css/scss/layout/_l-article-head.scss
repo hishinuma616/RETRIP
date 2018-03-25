@@ -7,5 +7,20 @@
     top: 35px;
     right: 0;
     width: 200px;
+
+    .l-article-head-info-status {
+      float: left;
+      width: 40%;
+      margin-bottom: 20px;
+      text-align: center;
+
+      &:last-child {
+        width: 60%;
+      }
+    }
+
+    .l-article-head-info-button {
+      text-align: center;
+    }
   }
 }

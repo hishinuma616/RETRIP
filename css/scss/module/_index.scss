@@ -1,7 +1,15 @@
 .index {
+  color: #555;
   background-color: #f7f7f7;
   border: solid 2px #f3f3f3;
   padding: 20px 25px;
+
+  .index-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: 333;
+    padding: 0 0 15px;
+  }
 
   .index-list {
     .index-list-item {
