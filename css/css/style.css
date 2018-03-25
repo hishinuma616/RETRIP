@@ -47,6 +47,21 @@ a {
 .l-bottom {
   margin-bottom: 35px; }
 
+.l-share {
+  padding: 5px 0 20px 0; }
+
+.l-shareWide {
+  padding: 50px 0; }
+
+.l-article-head {
+  position: relative;
+  padding: 35px 230px 15px 0; }
+  .l-article-head .l-article-head-info {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 200px; }
+
 header .header-inner {
   padding: 27px 25px; }
 
@@ -251,3 +266,90 @@ header .header-search-container .header-search {
       margin-top: 3px;
       color: #999;
       font-size: 11px; }
+
+.share .share-button {
+  display: inline-block;
+  width: 129px;
+  height: 38px;
+  line-height: 40px;
+  margin-right: 13px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer; }
+  .share .share-button:last-child {
+    margin-right: 0; }
+  .share .share-button:hover {
+    opacity: .5; }
+
+.share .share-button-wide {
+  width: 298px;
+  height: 60px;
+  border-radius: 7px;
+  margin-right: 15px;
+  font-size: 15px;
+  line-height: 63px;
+  letter-spacing: 1.5px; }
+
+.share .share-facebook {
+  background-color: #3b5998;
+  border-bottom: solid 2px #404c66; }
+  .share .share-facebook::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f39e";
+    font-weight: bold;
+    margin-right: 9px; }
+  .share .share-facebook:hover {
+    opacity: .5; }
+
+.share .share-twitter {
+  background-color: #55acee;
+  border-bottom: solid 2px #5698cb; }
+  .share .share-twitter::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f099";
+    font-weight: bold;
+    margin-right: 9px; }
+  .share .share-twitter:hover {
+    opacity: .5; }
+
+.share .share-google {
+  background-color: #db4437;
+  border-bottom: solid 2px #be382a; }
+  .share .share-google::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0d5";
+    font-weight: bold;
+    margin-right: 9px; }
+  .share .share-google:hover {
+    opacity: .5; }
+
+.share .share-hatena {
+  background-color: #008fde;
+  border-bottom: solid 2px #0077bb; }
+  .share .share-hatena::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f128";
+    font-weight: bold;
+    margin-right: 9px; }
+  .share .share-hatena:hover {
+    opacity: .5; }
+
+.share .share-pocket {
+  background-color: #ed4055;
+  border-bottom: solid 2px #cc3750; }
+  .share .share-pocket::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f265";
+    font-weight: bold;
+    margin-right: 9px; }
+  .share .share-pocket:hover {
+    opacity: .5; }
+
+.text-small {
+  font-size: 12px; }
+
+.text-glay {
+  color: #aaa; }

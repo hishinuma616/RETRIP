@@ -1,0 +1,114 @@
+.share {
+  
+  .share-button {
+    display: inline-block;
+    width: 129px;
+    height: 38px;
+    line-height: 40px;
+    margin-right: 13px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  .share-button-wide {
+    width: 298px;
+    height: 60px;
+    border-radius: 7px;
+    margin-right: 15px;
+    font-size: 15px;
+    line-height: 63px;
+    letter-spacing: 1.5px;
+  }
+
+  .share-facebook {
+    background-color: #3b5998;
+    border-bottom: solid 2px #404c66;
+
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f39e";
+      font-weight: bold;
+      margin-right: 9px;
+    }
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  .share-twitter {
+    background-color: #55acee;
+    border-bottom: solid 2px #5698cb;
+
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f099";
+      font-weight: bold;
+      margin-right: 9px;
+    }
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  .share-google {
+    background-color: #db4437;
+    border-bottom: solid 2px #be382a;
+
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f0d5";
+      font-weight: bold;
+      margin-right: 9px;
+    }
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  .share-hatena {
+    background-color: #008fde;
+    border-bottom: solid 2px #0077bb;
+
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f128";
+      font-weight: bold;
+      margin-right: 9px;
+    }
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  .share-pocket {
+    background-color: #ed4055;
+    border-bottom: solid 2px #cc3750;
+
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f265";
+      font-weight: bold;
+      margin-right: 9px;
+    }
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+}
