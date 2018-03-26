@@ -77,6 +77,12 @@ a {
     .l-article-head .l-article-head-info .l-article-head-info-button {
       text-align: center; }
 
+.l-footer .l-footer-left-nav {
+  width: 560px; }
+
+.l-footer .l-footer-right-nav {
+  width: 470px; }
+
 header .header-inner {
   padding: 27px 25px; }
 
@@ -409,3 +415,33 @@ header .header-search-container .header-search {
 .button-fav-icon:hover {
   cursor: pointer;
   opacity: .5; }
+
+.induction-container {
+  background-color: #f9f9f9;
+  border-top: solid 1px #eee; }
+  .induction-container .induction {
+    width: 1030px;
+    margin: auto;
+    height: 235px;
+    padding: 40px 0 0 335px;
+    box-sizing: border-box;
+    background: url(../../img/induction-sp.png) 41px top no-repeat;
+    background-size: auto 235px; }
+    .induction-container .induction .induction-title {
+      color: #444;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.3;
+      margin-bottom: 12px; }
+    .induction-container .induction .induction-text {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px; }
+    .induction-container .induction .induction-image-container {
+      float: left;
+      margin-right: 20px; }
+      .induction-container .induction .induction-image-container .induction-image {
+        width: 170px; }
+        .induction-container .induction .induction-image-container .induction-image:hover {
+          opacity: .5; }
