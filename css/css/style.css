@@ -564,19 +564,31 @@ header .header-menu {
   text-decoration: underline;
   margin-bottom: 55px !important; }
 
-.pagenation-container .pagenation {
-  position: relative;
-  padding: 45px 0 0;
-  text-align: center;
-  height: 40px;
-  font-size: 17px;
-  color: #888; }
-  .pagenation-container .pagenation .pagenation-page {
+.pagenation-container {
+  position: relative; }
+  .pagenation-container .pagenation {
+    padding: 45px 0 0;
+    text-align: center;
+    height: 40px;
+    font-size: 17px;
+    color: #888; }
+    .pagenation-container .pagenation .pagenation-page {
+      display: inline-block;
+      height: 39px;
+      border-bottom: solid 1px #444;
+      cursor: default; }
+      .pagenation-container .pagenation .pagenation-page .pagenation-page-text {
+        padding: 0 13px;
+        margin: 0 3px;
+        line-height: 39px; }
+  .pagenation-container .pagenation-next-btn {
+    position: absolute;
+    top: 45px;
+    right: 0;
     display: inline-block;
+    width: 55px;
     height: 39px;
     border-bottom: solid 1px #444;
-    cursor: default; }
-    .pagenation-container .pagenation .pagenation-page .pagenation-page-text {
-      padding: 0 13px;
-      margin: 0 3px;
+    text-align: center; }
+    .pagenation-container .pagenation-next-btn .pagenation-next-btn-text {
       line-height: 39px; }
