@@ -1,6 +1,29 @@
-.pagenation {
+.pagenation-container {
 
-  .pagenation-next-btn {
-    
+  .pagenation {
+    position: relative;
+    padding: 45px 0 0;
+    text-align: center;
+    height: 40px;
+    font-size: 17px;
+    color: #888;
+
+    .pagenation-page {
+      display: inline-block;
+      height: 39px;
+      border-bottom: solid 1px #444;
+      cursor: default;
+
+      .pagenation-page-text {
+        padding: 0 13px;
+        margin: 0 3px;
+        line-height: 39px;
+      }
+    }
+
+
+    .pagenation-next-btn {
+
+    }
   }
 }

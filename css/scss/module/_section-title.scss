@@ -3,24 +3,23 @@
   font-weight: bold;
   padding: 20px 0 15px;
   margin-bottom: 25px;
-  border-bottom: solid 3px #000;
+  border-bottom: solid 3px #4cc3ce;
 }
 
-.side-section-title {
+.sub-section-title {
+  position: relative;
   font-size: 16px;
   font-weight: bold;
   padding: 35px 0 9px;
   margin: 0;
   border-bottom: solid 1px #444;
-}
 
-
-.purple-underLine {
-  border-bottom-color: #4cc3ce;
-}
-.blue-underLine {
-  border-bottom-color: #1991ba;
-}
-.yellow-underLine {
-  border-bottom-color: #ffbf00;
+  .sub-section-title-subText {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 11px;
+    color: #aaa;
+    font-weight: normal;
+  }
 }
