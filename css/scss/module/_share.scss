@@ -38,7 +38,7 @@
 
     &::before {
       font-family: "Font Awesome 5 Free";
-      content: "\f39e";
+      content: "\f042";
       font-weight: bold;
       margin-right: 9px;
     }
@@ -53,9 +53,12 @@
     border-bottom: solid 2px #5698cb;
 
     &::before {
-      font-family: "Font Awesome 5 Free";
-      content: "\f099";
-      font-weight: bold;
+      content: "";
+      display: inline-block;
+      background-image: url("../../img/twiiter-icon.svg");
+      width: 10px;
+      height: 10px;
+      fill: #000;
       margin-right: 9px;
     }
 

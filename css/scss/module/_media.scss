@@ -13,6 +13,12 @@
       height: 70px;
     }
 
+    .media-thumbnail-large {
+      vertical-align: middle;
+      width: 170px;
+      height: 120px;
+    }
+
     .media-thumbnail-circle {
       vertical-align: middle;
       width: 70px;
@@ -33,6 +39,12 @@
     .media-text {
       padding-left: 5px;
       font-size: 13px;
+    }
+
+    .media-text-large {
+      padding-left: 5px;
+      font-size: 20px;
+      font-weight: bold;
     }
   }
 }

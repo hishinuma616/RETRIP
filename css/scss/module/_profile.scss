@@ -1,0 +1,21 @@
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  height: 60px;
+
+  .profile-icon-container {
+    margin-right: 30px;
+
+    .profile-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+  }
+
+  .profile-name {
+    text-align: center;
+    line-height: 70px;
+  }
+}
