@@ -47,8 +47,13 @@ a {
   clear: both; }
 
 .l-header {
+  position: relative;
   display: flex;
   justify-content: space-between; }
+  .l-header .l-header-logo {
+    position: absolute;
+    top: 30%;
+    left: 50%; }
 
 .l-bottom {
   margin-bottom: 35px; }
@@ -89,19 +94,52 @@ a {
   top: 43px;
   right: 0; }
 
+.l-contentInfo {
+  display: flex;
+  align-items: center; }
+
 header .header-inner {
+  position: relative;
   padding: 27px 25px; }
 
-header .header-search-container .header-search {
-  box-sizing: border-box;
-  width: 220px;
-  height: 30px;
-  border: none;
-  border-radius: 5px;
-  padding: 0 30px 0 10px;
-  font-size: 12px;
-  line-height: 30px;
-  background-color: #f5f5f5; }
+header .header-search-container {
+  position: relative; }
+  header .header-search-container .header-search {
+    box-sizing: border-box;
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 30px 0 10px;
+    font-size: 12px;
+    line-height: 30px;
+    background-color: #f5f5f5; }
+  header .header-search-container .header-search-button {
+    display: none; }
+  header .header-search-container::after {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+    font-weight: bold;
+    font-size: 14px;
+    color: #555; }
+
+header .header-menu {
+  display: flex;
+  align-items: center; }
+  header .header-menu .header-menu-text {
+    font-size: 11px;
+    margin-right: 38px; }
+    header .header-menu .header-menu-text:hover {
+      cursor: pointer;
+      opacity: .5; }
+  header .header-menu .header-menu-icon {
+    width: 25px; }
+    header .header-menu .header-menu-icon:hover {
+      cursor: pointer;
+      opacity: .5; }
 
 .footer-container {
   border-top: solid #eee 1px; }
@@ -358,12 +396,9 @@ header .header-search-container .header-search {
   background-color: #55acee;
   border-bottom: solid 2px #5698cb; }
   .share .share-twitter::before {
-    content: "";
-    display: inline-block;
-    background-image: url("../../img/twiiter-icon.svg");
-    width: 10px;
-    height: 10px;
-    fill: #000;
+    font-family: "Font Awesome 5 Free";
+    content: "\f042";
+    font-weight: bold;
     margin-right: 9px; }
   .share .share-twitter:hover {
     opacity: .5; }
@@ -373,7 +408,7 @@ header .header-search-container .header-search {
   border-bottom: solid 2px #be382a; }
   .share .share-google::before {
     font-family: "Font Awesome 5 Free";
-    content: "\f0d5";
+    content: "\f042";
     font-weight: bold;
     margin-right: 9px; }
   .share .share-google:hover {
@@ -384,7 +419,7 @@ header .header-search-container .header-search {
   border-bottom: solid 2px #0077bb; }
   .share .share-hatena::before {
     font-family: "Font Awesome 5 Free";
-    content: "\f128";
+    content: "\f042";
     font-weight: bold;
     margin-right: 9px; }
   .share .share-hatena:hover {
@@ -395,7 +430,7 @@ header .header-search-container .header-search {
   border-bottom: solid 2px #cc3750; }
   .share .share-pocket::before {
     font-family: "Font Awesome 5 Free";
-    content: "\f265";
+    content: "\f042";
     font-weight: bold;
     margin-right: 9px; }
   .share .share-pocket:hover {
@@ -493,3 +528,9 @@ header .header-search-container .header-search {
     font-size: 24px;
     font-weight: bold;
     line-height: 75px; }
+
+.circle-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px; }
