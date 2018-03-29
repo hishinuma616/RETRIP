@@ -50,7 +50,7 @@
   }
 
   .media-title-center {
-    line-height: 67px;
+    line-height: 73px;
   }
 
   .media-info {
@@ -60,12 +60,19 @@
     bottom: 0;
 
     .media-info-view {
+
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f030";
+        font-weight: bold;
+        margin-right: 9px;
+      }
+
       &::after {
       content: "|";
       font-size: 11px;
       margin: 0 7px;
       }
-
     }
   }
 }
